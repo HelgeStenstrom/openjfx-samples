@@ -31,6 +31,7 @@
             <version>11.0.2</version>
         </dependency>
     </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -41,6 +42,7 @@
                     <release>11</release>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
@@ -56,6 +58,7 @@
                     <mainClass>org.openjfx.MainApp</mainClass>
                 </configuration>
             </plugin>
+
         </plugins>
     </build>
 
